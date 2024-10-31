@@ -10,3 +10,8 @@ describe('Regular factorial value', function() {
         assert.strictEqual(main.factorial(1), 1); 
     });
 });
+describe('negative factorial value', function() {
+    it('should return undefined for factorial(-1)', function() {
+        assert.strictEqual(main.factorial(-1), undefined); 
+    });
+});
