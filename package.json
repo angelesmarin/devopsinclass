@@ -4,11 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "test-coverage": "nyc --check-coverage=true --statements=100 mocha"
   },
-  "author": "YOUR NAME",
+  "author": "Angeles",
   "license": "MIT",
   "devDependencies": {
-    "mocha": "^8.2.1"
+    "mocha": "^8.2.1",
+    "nyc": "^17.1.0"
   }
-}
+ }
+ 
+ 
+ 
+ 
